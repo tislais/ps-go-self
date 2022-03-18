@@ -15,11 +15,11 @@ Slices:
 
 (no actual data gets stored in the slice construct. it's basically pointers pointing to the actual data in the array, meaning the slice itself is basically a name, a type, and offset, and a length)
 
-![](../array_v_slice.png)
+![](../images/array_v_slice.png)
 
 And we can have multiple slices for one array and since they're just pointers, it's very cheap.
 
-![](../array_v_slice2.png)
+![](../images/array_v_slice2.png)
 
 However changing the value in any element in one of the slices changes it in the array below, meaning every other slice that references it sees the change. Important to know when passing slices as arguments to functions.
 

@@ -98,5 +98,5 @@ Maps are not thread-safe. They are not safe for concurrency. Basically, it's not
 
 ## Recap
 
-[](../mapsrecap.png)
+[](../images/mapsrecap.png)
 
