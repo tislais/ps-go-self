@@ -2,7 +2,7 @@
 
 Structs are how we define custom data types. For example, if you wanted to have a circle type and it knows things like radius, diameter, and circumference.
 
-[](../images/circle_struct.png)
+![](../images/circle_struct.png)
 
 The fields making up a struct do **not** have to all be the same data type. A struct just defines a type. It does not instantiate any variables.
 
@@ -21,7 +21,7 @@ type person struct {
 
 No.
 
-[](../images/no_go.png)
+![](../images/no_go.png)
 
 ## Defining Structs
 We actually can define new types as simple ints and strings and whatnot. So even tho there's already an int type. We can create a new int type that is a simple int as well. The reason we do this is so that we can assign methods to custom types.
